@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="two.mid" format="2">
+  <advance width="421"/>
+  <outline>
+    <contour>
+      <point x="0" y="644" type="line"/>
+      <point x="421" y="644" type="line"/>
+      <point x="421" y="582" type="line"/>
+      <point x="0" y="582" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="50" type="line"/>
+      <point x="421" y="50" type="line"/>
+      <point x="421" y="-13" type="line"/>
+      <point x="0" y="-13" type="line"/>
+    </contour>
+    <component base="twosuperior" xOffset="22" yOffset="-206"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.8,0.4,1</string>
+    </dict>
+  </lib>
+</glyph>
