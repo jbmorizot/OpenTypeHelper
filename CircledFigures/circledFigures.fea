@@ -1,0 +1,18 @@
+@fig = [zero one two three four five six seven eight nine];
+@circled = [ zero.circled one.circled two.circled three.circled four.circled five.circled six.circled seven.circled eight.circled nine.circled];
+@start = [ zero.start one.start two.start three.start four.start five.start six.start seven.start eight.start nine.start];
+@end = [ zero.end one.end two.end three.end four.end five.end six.end seven.end eight.end nine.end];
+@mid = [ zero.mid one.mid two.mid three.mid four.mid five.mid six.mid seven.mid eight.mid nine.mid];
+
+feature ss08{
+        sub @fig by @circled;
+    } ss08;
+
+feature ss09{
+        sub @fig by @circled;
+        sub @circled' @circled by @start;
+        sub @circled by @end;
+        sub @start @start' by @mid;
+        sub @mid @start' by @mid;
+        sub space @end' by @circled;
+    } ss09;
