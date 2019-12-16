@@ -1,0 +1,3 @@
+[submodule "Trickster"]
+	path = Trickster
+	url = https://github.com/velvetyne/Trickster.git
