@@ -4,15 +4,15 @@
 @end = [ zero.end one.end two.end three.end four.end five.end six.end seven.end eight.end nine.end];
 @mid = [ zero.mid one.mid two.mid three.mid four.mid five.mid six.mid seven.mid eight.mid nine.mid];
 
-feature ss08{
+feature ss01{
         sub @fig by @circled;
-    } ss08;
+    } ss01;
 
-feature ss09{
+feature ss02{
         sub @fig by @circled;
         sub @circled' @circled by @start;
         sub @circled by @end;
         sub @start @start' by @mid;
         sub @mid @start' by @mid;
         sub space @end' by @circled;
-    } ss09;
+    } ss02;
